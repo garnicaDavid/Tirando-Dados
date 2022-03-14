@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dados</title>
+	<link rel="stylesheet" type="text/css" href="tirarDados.CSS">
+	<script type="text/javascript" src="acciones.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		
+	</header>
+	<nav>
+		<div id="dadosGeneral">
+				<h1> Dado N°1 </h1>
+				<h1> Dado N°2 </h1>
+		</div>
+			<div id ="dados">
+				<div id="dadoImg1">
+					<img id ="uno"class="center" src="img/dado1.jpg" value="1">
+				</div>
+				<div id="dadoImg2">
+					<button id="tirarDado" onclick="cambiar()">
+					<img id="dos" class="center1" src="img/flechas.png" alt="Cargando">
+					</button>
+				</div>
+				<div id="dadoImg3">
+					<img id="tres" class="center" src="img/dado1.jpg" value="1">
+				</div>
+
+			</div>
+		<center>
+		<div id="operaciones">
+        <input type="button" id="cuenta" onclick="operacionSumar()" value="Sumar">
+        <input type="button" id="cuenta" onclick="operacionRestar()" value="Restar">
+        <input type="button" id="cuenta" onclick="operacionMultiplicar()" value="Multiplicar">
+        <input type="button" id="cuenta" onclick="operacionDividir()" value="Dividir">
+    	</div>
+    	</center>
+	</nav>
+	<article>
+		<div id="hojaCalculo" class="caja">
+			<p id="p">
+			</p>
+		</div>
+	</article>
+	<footer>
+		
+	</footer>
+</body>
+</html>
